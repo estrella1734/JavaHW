@@ -51,3 +51,21 @@ Explanation: 153=13+53+33, so 153 is the Amstrong number.
 
 11. Loop practice-Prime
 Input a positive integer and find all prime numbers less than or equal to it.
+
+12. One-dimensional array exercises-MaxMin
+Place 10 numbers in a one-dimensional array in advance, and find the largest value and the smallest value among the 10 numbers.
+
+13. Exercises on two-dimensional array-Sales
+A certain company has five products, A, B, C, D and E,
+with unit prices of 12, 16, 10, 14 and 15 yuan respectively.
+The company has three salesmen and their sales volume in a certain month is as follows. Show
+
+Salesperson Product A Product B Product C Product D Product E
+Jean 33 32 56 45 33
+Tom 77 33 68 45 23
+Tina 43 55 43 67 65
+Try calculation:
+a. Total sales amount per salesperson
+b. The salesperson with the best performance (the one with the largest total sales amount)
+c. Total sales amount of each product
+d. The product with the largest total sales amount
