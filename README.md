@@ -1,4 +1,4 @@
-Contains 11 Java exercises:
+Contains 15 Java exercises:
 
 1. Exercise of selective narration-Season
 Enter the months from January to December, use switch to determine the corresponding seasons of spring, summer, autumn and winter and print them out. If it is not in this range, "input error" will be printed.
@@ -69,3 +69,12 @@ a. Total sales amount per salesperson
 b. The salesperson with the best performance (the one with the largest total sales amount)
 c. Total sales amount of each product
 d. The product with the largest total sales amount
+
+14. Exercises on encapsulation, inheritance, polytypes and modifiers-Employee
+There is a company where every employee has basic information such as name, gender, date of employment, phone number, and email address. The company has two types of employees, permanent and temporary. Permanent employees are divided into three types: general staff, supervisors and salespeople. Permanent employees all receive salary and lunch allowance (fixed at 2,400 yuan); supervisors also receive performance bonuses and transportation allowances (fixed). (3,000 yuan); salespersons will receive additional sales bonuses; temporary employees will receive hourly wages.
+In main(), four instances are generated, namely supervisor, general employee, salesperson and temporary employee (the data is directly in the program through the constructor hard code), and their basic information and current month's salary are printed.
+Note: The general staff's salary is the basic salary plus lunch allowance, the supervisor's salary is the basic salary plus lunch allowance plus efficiency bonus and transportation allowance, the salesperson's salary is the basic salary plus lunch allowance plus sales bonus, and the temporary employee's salary is the hourly wage. Multiply by the number of hours worked in the month.
+
+15. Interface practice-Shape
+There is an interface named Shape, which has two member methods: one is to calculate the area computeArea(), and the other is to calculate the perimeter computeCircumference().
+Write two categories, Circle and Rectangle, to implement the above interface and verify the results.
